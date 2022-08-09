@@ -26,6 +26,11 @@ LeafletWidget.methods.addSearchOSM = function(options) {
     }
 
     options = options || {};
+    // default
+    //options.textPlaceholder = 'Search using OSM Geocoder';
+    //options.url = 'https://nominatim.openstreetmap.org/search?format=json&q={s}';
+    options.textPlaceholder = 'Search for an address';
+    options.url = 'https://nominatim.openstreetmap.org/search.php?format=jsonv2&countrycodes=AU&q={s}'; // search australia only
     options.jsonpParam = 'json_callback';
     options.propertyName = 'display_name';
     options.propertyLoc = ['lat','lon'];
