@@ -109,7 +109,7 @@ searchOptions <- function(
 #' @export
 addSearchOSM <- function(
   map,
-  options = searchOptions(autoCollapse = TRUE, minLength = 2)
+  options = searchOptions(autoCollapse = TRUE, minLength = 2, url='https://nominatim.openstreetmap.org/search?format=json&q={s}')
 ) {
   map$dependencies <- c(map$dependencies, leafletSearchDependencies())
   invokeMethod(
