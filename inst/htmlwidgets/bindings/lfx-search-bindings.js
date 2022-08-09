@@ -26,8 +26,6 @@ LeafletWidget.methods.addSearchOSM = function(options) {
     }
 
     options = options || {};
-    options.textPlaceholder = 'Search using OSM Geocoder';
-    options.url = 'https://nominatim.openstreetmap.org/search?format=json&q={s}';
     options.jsonpParam = 'json_callback';
     options.propertyName = 'display_name';
     options.propertyLoc = ['lat','lon'];
