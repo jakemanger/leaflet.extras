@@ -1,4 +1,9 @@
-# Project needs a new home
+# A minimal R leaflet-search fork of leaflet.extras
+
+This is a minimal fork of leaflet.extras to run leaflet-search for R using
+up to date javascript packages.
+
+## Rest of leaflet.extras readme (note, much of it is obsolete now)
 
 Thank you all of you who have used this package and have contributed code/bugs/enhancements over the years. As you may have noticed I haven't been able to make any contributions to this project and others in the last two years. I was hoping to get back to developing/maintaining this package on a regular basis but my current work-life balance does not allow it and I don't see that situation changing anytime soon. 
 
